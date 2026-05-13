@@ -1,7 +1,8 @@
+<img width="1024" height="1024" alt="goodq_cyber" src="https://github.com/user-attachments/assets/91913df8-accb-4d33-b92d-5536789db3ba" />
 
 “If you can’t own your tools, you don’t own your future.”
 
-Welcome to GoodQ02—where the boundary between automation, creativity, and autonomy gets redrawn.
+Welcome to GoodQ—where the boundary between automation, creativity, and autonomy gets redrawn.
 We’re not here to build another cloud-shaped cage. We’re here to take the best of modern tech—AI, multimodal pipelines, local-first infrastructure—and put it firmly in your hands.
 
 Mission
