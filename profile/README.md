@@ -1,5 +1,4 @@
-![GoodQ Logo](image/you-are-goodqo2b-square.png)
-# created by: GoodQ_o2
+
 “If you can’t own your tools, you don’t own your future.”
 
 Welcome to GoodQ02—where the boundary between automation, creativity, and autonomy gets redrawn.
