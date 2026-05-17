@@ -90,6 +90,8 @@ Open:
 ## Links
 
 - [GoodQ4All repo](https://github.com/GoodQ02/goodq4all)
+- [Support and reporting](https://github.com/GoodQ02/goodq4all/blob/main/SUPPORT.md)
+- [Community discussions](https://github.com/GoodQ02/goodq4all/discussions)
 - [Guided demo release](https://github.com/GoodQ02/.github/releases/tag/welcome-aboard-goodq4all-2026-05-17)
 - [askgoodq.com](https://askgoodq.com)
 - Instagram: [@goodq02](https://instagram.com/goodq02)
