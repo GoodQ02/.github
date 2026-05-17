@@ -1,71 +1,77 @@
-<img width="1024" height="1024" alt="goodq_cyber" src="https://github.com/user-attachments/assets/91913df8-accb-4d33-b92d-5536789db3ba" />
+<p align="center">
+  <img src="../image/q-git-square.png" alt="GoodQ mark" width="140" />
+</p>
 
-“If you can’t own your tools, you don’t own your future.”
+# GoodQ
 
-Welcome to GoodQ—where the boundary between automation, creativity, and autonomy gets redrawn.
-We’re not here to build another cloud-shaped cage. We’re here to take the best of modern tech—AI, multimodal pipelines, local-first infrastructure—and put it firmly in your hands.
+If you can't own your tools, you don't own your future.
 
-Mission
-Build systems that empower, not entrap.
-Engineer pipelines, platforms, and playful experiments that are:
+GoodQ builds local-first systems for memory, automation, and creative intelligence. The work is practical, inspectable, and meant to stay in the hands of the person running it.
 
-Locally owned
+## Welcome Aboard GoodQ4All
 
-Transparent
+GoodQ4All is the public local-first memory project: a Windows-first multimodal system that turns video, audio, and text into scene-level memory with visible proof paths.
 
-Performance-obsessed
+Start with the two-minute onboarding film if you want to see the install and first ingestion loop before reading the deeper docs.
 
-Human-centered
+<p align="center">
+  <a href="https://github.com/GoodQ02/.github/releases/download/welcome-aboard-goodq4all-2026-05-17/GOODQ4ALL_DEMO_FINAL.mp4">
+    <img src="../image/goodq4all-demo-poster.jpg" alt="Watch Welcome Aboard GoodQ4All" width="760" />
+  </a>
+</p>
 
-Resistant to the “it’s just how things are” mindset
+<p align="center">
+  <a href="https://github.com/GoodQ02/.github/releases/download/welcome-aboard-goodq4all-2026-05-17/GOODQ4ALL_DEMO_FINAL.mp4">Watch the 2-minute guided demo</a>
+  ·
+  <a href="https://github.com/GoodQ02/goodq4all">Open the repo</a>
+  ·
+  <a href="https://github.com/GoodQ02/goodq4all/blob/main/docs/guides/DEMO.md">Read the demo guide</a>
+</p>
 
-Ethos
-Your data, your rules.
+## What GoodQ4All Proves
 
-Automate to liberate—not to surveil.
+- **Local-first memory**: the supported runtime works without a required cloud dependency.
+- **Scene-centric ingestion**: scenes are the atomic unit for video, audio, and text intelligence.
+- **Visible proof paths**: runtime artifacts, manifests, logs, and API routes are part of the product surface.
+- **Operator-friendly flow**: bootstrap, validate, launch readiness, start Watchdog, drop media, inspect proof.
 
-If it’s not fun or useful, why bother?
+## Start Here
 
-No gatekeeping. Knowledge is for sharing.
+```powershell
+git clone https://github.com/GoodQ02/goodq4all.git
+cd goodq4all
+python scripts/bootstrap_install.py
+.\scripts\bootstrap_validate.bat
+.\LAUNCH_GOODQ.ps1
+```
 
-Rigorous enough for MI6, friendly enough for your grandma’s AOL inbox.
+Then leave Watchdog running in one terminal:
 
-Hack it, remix it, make it yours.
+```powershell
+conda run --no-capture-output -n goodq_core python -m cli.watchdog
+```
 
-Mistakes are the cost of discovery. Ship anyway.
+Drop one small media file into the configured `import_inbox`, then start the API in another terminal:
 
-What We Build
-AI-accelerated pipelines for creative and personal memory
+```powershell
+conda run --no-capture-output -n goodq_core python -m api.server
+```
 
-Automation that organizes chaos (not the other way around)
+Open:
 
-Tools for musicians, makers, nurses, coders, and the rest of the beautiful weirdos
+- `http://127.0.0.1:30000/api/health/summary`
+- `http://127.0.0.1:30000/docs`
 
-Frameworks that let you say: “I own this. I get this.”
+## Ethos
 
-How We Work
-Push often.
+- Your data, your rules.
+- Automate to liberate, not to surveil.
+- Local truth beats cloud-shaped assumptions.
+- Rigorous enough for production, friendly enough to invite curiosity.
 
-Document well (but not too well).
+## Links
 
-Prefer clever over complicated.
-
-Be excellent to each other.
-
-Open door. Open mind.
-
-Feedback isn’t just welcome—it’s standard operating procedure.
-
-Who’s Welcome
-If you’re here, you belong.
-If you want to help, you’re in.
-If you’ve ever automated a pizza order or mapped out your HDMI cables on a napkin, you’ll fit right in.
-
-Links
-🌐 askgoodq.com
-
-📷 Instagram @goodq02
-
-🚌 The GoodBus
-
-Join us. Build with us. Break things with us. The future should belong to the curious.
+- [GoodQ4All repo](https://github.com/GoodQ02/goodq4all)
+- [Guided demo release](https://github.com/GoodQ02/.github/releases/tag/welcome-aboard-goodq4all-2026-05-17)
+- [askgoodq.com](https://askgoodq.com)
+- Instagram: [@goodq02](https://instagram.com/goodq02)
