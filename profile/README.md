@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../image/q-git-square.png" alt="GoodQ mark" width="140" />
+  <img src="https://raw.githubusercontent.com/GoodQ02/.github/main/image/q-git-square.png" alt="GoodQ mark" width="140" />
 </p>
 
 # GoodQ
@@ -16,7 +16,7 @@ Start with the two-minute onboarding film if you want to see the install and fir
 
 <p align="center">
   <a href="https://github.com/GoodQ02/.github/releases/download/welcome-aboard-goodq4all-2026-05-17/GOODQ4ALL_DEMO_FINAL.mp4">
-    <img src="../image/goodq4all-demo-poster.jpg" alt="Watch Welcome Aboard GoodQ4All" width="760" />
+    <img src="https://raw.githubusercontent.com/GoodQ02/.github/main/image/goodq4all-demo-poster.jpg" alt="Watch Welcome Aboard GoodQ4All" width="760" />
   </a>
 </p>
 
